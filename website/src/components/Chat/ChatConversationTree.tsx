@@ -111,7 +111,7 @@ const TreeChildren = ({
       {...props}
       canRetry={isLeaf}
       showEncourageMessage={props.showEncourageMessage && isLeaf}
-      // TODO refacor away from this dirty hack
+      // TODO refactor away from this dirty hack
       id={isLeaf && currentTree.role === "assistant" ? LAST_ASSISTANT_MESSAGE_ID : undefined}
       data-id={currentTree.id}
       pagingSlot={
