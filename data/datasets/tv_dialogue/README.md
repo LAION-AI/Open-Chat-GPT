@@ -47,7 +47,7 @@ How's it going?
 on Huggingface!
 
 They are examples on Huggingface.
-CUT OUT TO ANOTHER SCENCE
+CUT OUT TO ANOTHER SCENE
 
 We are somewhere else
 [PERSON 1 (v.o)] I wonder where we are?

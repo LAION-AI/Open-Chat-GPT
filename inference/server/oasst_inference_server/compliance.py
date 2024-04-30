@@ -57,7 +57,7 @@ async def run_compliance_check(websocket: fastapi.WebSocket, worker_id: str, wor
     Run a compliance check for the given worker:
     - Find a suitable compliance check assistant message
     - Task the worker with generating a response with the same context
-    - Compare the respons against the existing completed message
+    - Compare the response against the existing completed message
     - Update the database with the outcome
     """
     async with deps.manual_create_session() as session:

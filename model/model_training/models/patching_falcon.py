@@ -19,7 +19,7 @@ def falcon_forward_with_flash_attn(
 ) -> Tuple[torch.Tensor, Optional[torch.Tensor]]:
     """
     head_mask, alibi & output_attention are not supported.
-    Reference to the original `FalconAttention.forwad()` method which this patch replaces:
+    Reference to the original `FalconAttention.forward()` method which this patch replaces:
     https://github.com/huggingface/transformers/blob/c965d302791cf935d6ea7776428749be678cf509/src/transformers/models/falcon/modeling_falcon.py#L281
     """
 

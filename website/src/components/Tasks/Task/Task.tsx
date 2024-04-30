@@ -99,7 +99,7 @@ export const Task = () => {
             case "DEFAULT_WARN":
               return { mode: "EDIT", replyValidity: "DEFAULT" };
             case "SUBMITTED":
-              // allow return to edit from subbmitted mode (error happen during submitting task)
+              // allow return to edit from submitted mode (error happen during submitting task)
               return { mode: "EDIT", replyValidity: "VALID" };
             default:
               return status;

@@ -2,7 +2,7 @@ import transformers
 
 
 def freeze_top_n_layers(model, target_layers):
-    # its possible we can simply detect which module is a ModuleList
+    # it's possible we can simply detect which module is a ModuleList
     # and simply freeze the module without doing string parsing
     for name, param in model.named_parameters():
         if "embed" in name:

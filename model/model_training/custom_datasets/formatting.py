@@ -74,7 +74,7 @@ class Utterance(BaseModel):
 
         shuffle(properties)
 
-        # ensure that potentially multi-line conext field comes last
+        # ensure that potentially multi-line context field comes last
         if self.context:
             properties.append(("context", self.context))
 

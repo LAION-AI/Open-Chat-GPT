@@ -1085,7 +1085,7 @@ class TreeManager:
 
     def query_prompts_need_review(self, lang: str) -> list[Message]:
         """
-        Select initial prompt messages with less then required rankings in active message tree
+        Select initial prompt messages with less than required rankings in active message tree
         (active == True in message_tree_state)
         """
         return self._query_need_review(
@@ -1094,7 +1094,7 @@ class TreeManager:
 
     def query_replies_need_review(self, lang: str) -> list[Message]:
         """
-        Select child messages (parent_id IS NOT NULL) with less then required rankings
+        Select child messages (parent_id IS NOT NULL) with less than required rankings
         in active message tree (active == True in message_tree_state)
         """
         return self._query_need_review(message_tree_state.State.GROWING, self.cfg.num_reviews_reply, False, lang)

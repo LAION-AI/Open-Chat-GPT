@@ -195,7 +195,7 @@ child_hotline = {
     "Ligne Verte 147 Madagascar": {
         "region": "Madagascar",
         "page": "https://childhelplineinternational.org/madagascar-ligne-verte-147-madagascar/",
-        "description": "Ligne Verte 147 is a child helpline for reporting cases of mistreatment, violence, abuse and exploitation against children and is is free, available 24/7 and accessible everywhere in Madagascar.",
+        "description": "Ligne Verte 147 is a child helpline for reporting cases of mistreatment, violence, abuse and exploitation against children and is free, available 24/7 and accessible everywhere in Madagascar.",
         "contacts": {
             "Website": {"type": "website", "link": "https://arozaza.mg/"},
             "147": {"type": "phone", "link": "tel:147"},
@@ -529,7 +529,7 @@ child_hotline = {
     "Línea Libre": {
         "region": "Chile",
         "page": "https://childhelplineinternational.org/chile-linea-libre/",
-        "description": "Línea Libre is is a psychological support channel aimed at girls, boys and young people, which is attended directly by psychologists trained to contain, guide, intervene in crises, and address mental health concerns or rights violations. It is available Monday to Saturday from 10:00 a.m. to 10:00 p.m. through three channels: phone email, and chat via our app.",
+        "description": "Línea Libre is a psychological support channel aimed at girls, boys and young people, which is attended directly by psychologists trained to contain, guide, intervene in crises, and address mental health concerns or rights violations. It is available Monday to Saturday from 10:00 a.m. to 10:00 p.m. through three channels: phone email, and chat via our app.",
         "contacts": {
             "Website": {"type": "website", "link": "http://www.linealibre.cl/"},
             "1515": {"type": "phone", "link": "tel:1515"},
@@ -2110,7 +2110,7 @@ child_hotline = {
     "Hotline 919": {
         "region": "Qatar",
         "page": "https://childhelplineinternational.org/qatar-hotline-919/",
-        "description": "Hotline 919 provides provides free confidential consultations (social, psychological and legal) for women and children and also provides support to protect and rehabilitate children and women who are victims of violence and family breakdown.",
+        "description": "Hotline 919 provides free confidential consultations (social, psychological and legal) for women and children and also provides support to protect and rehabilitate children and women who are victims of violence and family breakdown.",
         "contacts": {
             "Website": {"type": "website", "link": "http://www.aman.org.qa/"},
             "919": {"type": "phone", "link": "tel:919"},

@@ -83,7 +83,7 @@ def main():
             reply_texts.add(m.text)
 
         if len(unique_replies) < 2:
-            print("Skipping enty with < 2 unique replies")
+            print("Skipping entry with < 2 unique replies")
             continue
 
         prompt_message = ExportMessageNode(

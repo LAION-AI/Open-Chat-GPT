@@ -19,7 +19,7 @@ python -m pip install ../../oasst-data/
 
 ### Configuration
 
-The datamix to proces can be configured with one or multiple sections in the
+The datamix to process can be configured with one or multiple sections in the
 `configs/pretokenize.yaml` file.
 
 ### Example usage

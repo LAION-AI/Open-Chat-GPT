@@ -111,7 +111,7 @@ The inference server is built around [FastAPI](https://fastapi.tiangolo.com/).
       for any other currently pending messages in the chat to
       `inference.MessageState.cancelled`.
    3. After updating the `message` table, we create a RedisQueue for this
-      specific message and enque the message.
+      specific message and enqueue the message.
    4. Finally, we return an `inference.MessageRead` (a Pydantic model) to the
       client. This is the object contains the needed `message_id`.
 

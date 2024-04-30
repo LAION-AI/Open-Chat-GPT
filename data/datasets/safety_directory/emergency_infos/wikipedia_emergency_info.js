@@ -1,5 +1,5 @@
 /**
- * Developper console script used to generate the associated json file.
+ * Developer console script used to generate the associated json file.
  * Wikipedia URL : https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines
  * Author : Lucas Oulieu
  */
