@@ -41,3 +41,8 @@ This would only show missing/untranslated strings in the German (de) and Japanes
 Passing nothing will default to searching all locales instead.
 
 If you have any questions or need further assistance, please reach out.
+
+### Adding missing translations
+
+A script can be used to add missing entries to locale files. Run the script from the root dir using
+`python scripts/frontend-development/add_missing_json_locale_entries.py -h` for help on how to use it.
