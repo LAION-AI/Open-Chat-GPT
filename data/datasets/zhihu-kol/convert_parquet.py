@@ -43,6 +43,7 @@ def reformat_csv_to_openassistant(df: pd.DataFrame) -> pd.DataFrame:
 if __name__ == "__main__":
     input_csv = "zhihu.csv"
     # Create a pandas dataframe from your dataset file(s)
+    # Use the `dtype` parameter of `pd.read_csv`.
     df = pd.read_csv(input_csv)  # or any other way
     df = reformat_csv_to_openassistant(df)
     # Save the file in the Parquet format

@@ -3,6 +3,7 @@ import json
 import pandas as pd
 
 if __name__ == "__main__":
+    # Use the `dtype` parameter of `pd.read_csv`.
     raw_df = pd.read_csv(r"...\wiki_qa_bart_10000row.csv")
     # print(raw_df.iloc[0])
     # print(raw_df.columns)
