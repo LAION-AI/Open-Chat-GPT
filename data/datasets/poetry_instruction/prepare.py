@@ -14,6 +14,7 @@ kaggle.api.dataset_download_files("tgdivy/poetry-foundation-poems", path=downloa
 
 # Read the CSV file into a pandas dataframe
 csv_file = os.path.join(download_path, "PoetryFoundationData.csv")
+# Use the `dtype` parameter of `pd.read_csv`.
 df = pd.read_csv(csv_file)
 
 # The data in the CSV file is not formatted correctly, so we need to clean it up.

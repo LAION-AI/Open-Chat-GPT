@@ -63,6 +63,7 @@ def main(output_dir: str = "data"):
     """Download and prepare the dataset for use."""
     os.makedirs(output_dir, exist_ok=True)
     kaggle.api.dataset_download_files("tboyle10/medicaltranscriptions", "data", unzip=True)
+    # Use the `dtype` parameter of `pd.read_csv`.
     mt_samples = preprocess(pd.read_csv("data/mtsamples.csv"))
     conversations = get_conversations(mt_samples)
     random.shuffle(conversations)

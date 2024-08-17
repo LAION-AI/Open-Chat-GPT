@@ -12,6 +12,7 @@ def num_tokens_from_string(string: str) -> int:
 
 
 if __name__ == "__main__":
+    # Use the `dtype` parameter of `pd.read_csv`.
     sampled_df = pd.read_csv("wiki_qa_bart_10000row_input.csv")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)

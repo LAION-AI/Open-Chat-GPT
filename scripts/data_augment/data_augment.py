@@ -458,6 +458,7 @@ def parse_arguments():
 
 
 def read_data(args):
+    # Use the `dtype` parameter of `pd.read_csv`.
     files = pd.read_csv(args.dataset, sep=",", header=None, names=["file"])
     files = files["file"].tolist()
     data = []
